@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "PyIpsm"
+version = "0.0.1"
+authors = [
+  { name="Kurian Joseph Kattukaren", email="kuriankattukaren@gmail.com" },
+]
+description = "PyIpsm is a python package to communicate with Petroleum Experts(Petex) software - Prosper, MBAL and GAP - through openserver using Python. This Python package eliminates the the need for writing VBA code to interface with Petex software."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/kuriankattukaren/PyIpsm"
+"Bug Tracker" = "https://github.com/kuriankattukaren/PyIpsm/issues"
