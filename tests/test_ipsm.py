@@ -1,7 +1,7 @@
 import pytest
 from time import sleep
 import win32com.client as wincom
-from ..src.ipsm import OpenServer, Program
+from ..src.Pyipsm.ipsm import OpenServer, Program
 
 openserver_file = "PX32.OpenServer.1"
 
