@@ -1,4 +1,4 @@
-import PyIpsm.ipsm as Ipsm
+import ipsm as Ipsm
 
 prosper_exe = "C:\\Program Files\\Petroleum Experts\\IPM 12\\prosper.exe"
 
