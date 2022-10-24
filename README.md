@@ -5,21 +5,21 @@ PyIpsm is a python package to communicate with Petroleum Experts(Petex) software
 ## Quick start
 
 ```bash
-$ pip install Pyipsm
+$ pip install PyIpsm
 ```
 
 Pyipsm requires [Pywin32](https://pypi.org/project/pywin32/) installed. If Pywin32 is not installed, install it using pip and then pip install Pyipsm.
 
 ```bash
 $ pip install Pywin32
-$ pip install Pyipsm
+$ pip install PyIpsm
 ```
 
 ## Example session:
 
 ```python
 # Import Pyipsm
->>> import Pyipsm.ipsm as Ipsm
+>>> import PyIpsm.ipsm as Ipsm
 
 # Provide the full path to Petex executable.
 >>> prosper_exe = "C:\\Program Files\\Petroleum Experts\\IPM 12\\prosper.exe"
