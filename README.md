@@ -12,7 +12,7 @@ Pyipsm requires [Pywin32](https://pypi.org/project/pywin32/) installed. If Pywin
 
 ```bash
 $ pip install Pywin32
-$ pip install Pipsm
+$ pip install Pyipsm
 ```
 
 ## Example session:
